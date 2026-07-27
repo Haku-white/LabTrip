@@ -1,0 +1,323 @@
+/* ===== Base / tokens ===== */
+:root{
+  --navy:#173a5e;
+  --navy-soft:#e8eef4;
+  --accent:#e0762f;
+  --accent-soft:#fdecdd;
+  --warn:#c0392b;
+  --warn-soft:#fdecea;
+  --ok:#2f7a4f;
+  --ok-soft:#e7f4ec;
+  --bg:#f6f4ef;
+  --card:#ffffff;
+  --line:#e4dfd4;
+  --text:#26241f;
+  --text-soft:#6b6a63;
+  color-scheme: light;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  margin:0;
+  font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  font-size:16px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;}
+a{color:#1868c0; text-decoration:none; word-break:break-word;}
+a:hover{text-decoration:underline;}
+
+/* ===== Header ===== */
+.hero{
+  background:linear-gradient(135deg,var(--navy),#0f2a45);
+  color:#fff;
+  padding:28px 18px 22px;
+}
+.hero h1{
+  margin:0 0 6px;
+  font-size:1.45rem;
+  line-height:1.35;
+}
+.hero .loc{font-size:0.92rem; opacity:0.9;}
+.hero .dates{
+  font-size:0.85rem; opacity:0.85; margin-top:10px;
+  display:flex; flex-wrap:wrap; gap:6px 14px;
+}
+
+/* ===== Sticky quick nav (tab-like, scrolls on mobile) ===== */
+.quicknav{
+  position:sticky; top:0; z-index:50;
+  background:#fff;
+  border-bottom:1px solid var(--line);
+  display:flex;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+  box-shadow:0 1px 6px rgba(0,0,0,0.06);
+}
+.quicknav::-webkit-scrollbar{display:none;}
+.quicknav a{
+  flex:0 0 auto;
+  padding:12px 16px;
+  font-size:0.85rem;
+  font-weight:600;
+  color:var(--text-soft);
+  white-space:nowrap;
+  border-bottom:3px solid transparent;
+}
+.quicknav a:hover{text-decoration:none; color:var(--navy);}
+.quicknav a.active,
+.quicknav a:active{
+  color:var(--navy);
+  border-bottom-color:var(--accent);
+}
+
+/* ===== Layout ===== */
+.wrap{max-width:720px; margin:0 auto; padding:0 16px 70px;}
+section{scroll-margin-top:52px;}
+
+h2.section-title{
+  color:var(--navy);
+  font-size:1.15rem;
+  margin:34px 0 14px;
+  padding-bottom:8px;
+  border-bottom:2px solid var(--navy-soft);
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+h3.day-heading{
+  display:inline-block;
+  background:var(--navy);
+  color:#fff;
+  font-size:0.95rem;
+  font-weight:700;
+  padding:6px 16px;
+  border-radius:100px;
+  margin:28px 0 14px;
+}
+
+/* ===== Cards ===== */
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:16px 16px;
+  margin-bottom:14px;
+  box-shadow:0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* Quick-facts summary card */
+.quickfacts{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:10px;
+}
+.quickfacts .row{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  font-size:0.92rem;
+}
+.quickfacts .row .ico{flex:0 0 auto; width:22px; text-align:center;}
+.quickfacts .row b{color:var(--navy);}
+
+/* Plan A / Plan B blocks */
+.plan-block{
+  border-left:4px solid var(--accent);
+  background:var(--accent-soft);
+  border-radius:8px;
+  padding:12px 14px;
+  margin-bottom:12px;
+  font-size:0.92rem;
+}
+.plan-block b{color:var(--navy);}
+.plan-block.rain{border-left-color:#5b7fa6; background:#eaf1f7;}
+
+/* ===== Callouts ===== */
+.callout{
+  border-radius:10px;
+  padding:12px 14px;
+  margin:12px 0;
+  font-size:0.88rem;
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+}
+.callout .ico{font-size:1.05rem; line-height:1.4;}
+.callout.warn{background:var(--warn-soft); color:#7d2a1f; border:1px solid #f2c6bd;}
+.callout.info{background:var(--navy-soft); color:#123151; border:1px solid #cfdcea;}
+.callout.tip{background:var(--ok-soft); color:#1f5c39; border:1px solid #c3e3cf;}
+
+/* ===== Timeline (day plans) ===== */
+.timeline-item{
+  position:relative;
+  padding:0 0 18px 20px;
+  border-left:2px solid var(--line);
+}
+.timeline-item:last-child{padding-bottom:2px;}
+.timeline-item::before{
+  content:"";
+  position:absolute; left:-6px; top:3px;
+  width:11px; height:11px;
+  background:var(--accent);
+  border:2px solid #fff;
+  border-radius:50%;
+  box-shadow:0 0 0 1px var(--accent);
+}
+.timeline-item.merge::before{background:#8a8578; box-shadow:0 0 0 1px #8a8578;}
+.time-badge{
+  display:inline-block;
+  background:var(--navy);
+  color:#fff;
+  font-weight:700;
+  font-size:0.78rem;
+  padding:3px 10px;
+  border-radius:100px;
+  margin-bottom:6px;
+}
+.audience{
+  display:inline-block;
+  font-size:0.72rem;
+  font-weight:700;
+  letter-spacing:0.02em;
+  color:var(--accent);
+  text-transform:uppercase;
+  margin-bottom:2px;
+}
+.event-title{
+  font-weight:700;
+  color:var(--text);
+  font-size:1rem;
+  margin:2px 0 6px;
+}
+.event-body{font-size:0.9rem; color:#41403a;}
+.event-body p{margin:6px 0;}
+.event-body ul{margin:6px 0; padding-left:20px;}
+.event-body li{margin-bottom:5px;}
+
+/* ===== Sento cards ===== */
+.sento-grid{display:grid; grid-template-columns:1fr; gap:10px; margin:10px 0;}
+.sento{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:10px;
+  padding:10px 12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  font-size:0.88rem;
+}
+.sento .name{font-weight:700; color:var(--navy);}
+.sento .meta{color:var(--text-soft); font-size:0.8rem;}
+.sento .price{
+  font-weight:700;
+  color:var(--accent);
+  white-space:nowrap;
+  text-align:right;
+  font-size:0.85rem;
+}
+
+/* ===== Room assignment chips ===== */
+.rooms{display:flex; flex-direction:column; gap:12px; margin-top:8px;}
+.room{
+  background:var(--navy-soft);
+  border-radius:10px;
+  padding:12px 14px;
+}
+.room .label{
+  font-weight:700; color:var(--navy); font-size:0.9rem; margin-bottom:8px;
+  display:block;
+}
+.chips{display:flex; flex-wrap:wrap; gap:6px;}
+.chip{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:100px;
+  padding:4px 10px;
+  font-size:0.8rem;
+  color:var(--text);
+}
+.chip.lead{
+  background:var(--accent);
+  color:#fff;
+  border-color:var(--accent);
+  font-weight:700;
+}
+
+/* ===== Ticket breakdown ===== */
+.ticket-list{list-style:none; margin:10px 0; padding:0;}
+.ticket-list li{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:10px 12px;
+  margin-bottom:8px;
+  font-size:0.88rem;
+}
+.ticket-list b{color:var(--navy); display:block; margin-bottom:2px; font-size:0.85rem;}
+
+/* ===== Accommodation ===== */
+.stay-card{
+  border:1px solid var(--line);
+  border-radius:10px;
+  padding:14px;
+  margin-bottom:12px;
+}
+.stay-card .tag{
+  display:inline-block;
+  background:var(--navy);
+  color:#fff;
+  font-weight:700;
+  font-size:0.78rem;
+  padding:2px 10px;
+  border-radius:100px;
+  margin-bottom:8px;
+}
+.stay-card .addr{font-size:0.88rem; margin-bottom:6px;}
+.stay-card .links{display:flex; flex-wrap:wrap; gap:12px; font-size:0.85rem;}
+
+/* ===== Sightseeing list ===== */
+.spot-list{list-style:none; margin:8px 0; padding:0;}
+.spot-list li{
+  padding:8px 0;
+  border-bottom:1px dashed var(--line);
+  font-size:0.9rem;
+}
+.spot-list li:last-child{border-bottom:none;}
+.spot-list b{color:var(--navy);}
+
+/* ===== Misc ===== */
+.note{font-size:0.8rem; color:var(--text-soft); margin-top:4px;}
+.divider{border-top:1px dashed var(--line); margin:14px 0;}
+footer.foot{
+  text-align:center;
+  font-size:0.78rem;
+  color:var(--text-soft);
+  padding:24px 16px 40px;
+}
+
+/* ===== Back-to-top ===== */
+.top-link{
+  display:inline-block;
+  margin-top:8px;
+  font-size:0.78rem;
+  color:var(--text-soft);
+}
+
+/* ===== Desktop enhancements ===== */
+@media (min-width:700px){
+  body{font-size:16.5px;}
+  .hero{padding:38px 32px 28px;}
+  .hero h1{font-size:1.8rem;}
+  .wrap{padding:0 32px 90px;}
+  .quickfacts{grid-template-columns:1fr 1fr;}
+  .rooms{flex-direction:row;}
+  .room{flex:1;}
+  .sento-grid{grid-template-columns:1fr 1fr;}
+  .card{padding:20px 22px;}
+}
