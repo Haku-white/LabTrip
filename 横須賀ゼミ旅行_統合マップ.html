@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>横須賀ゼミ旅行 統合マップ（宿・銭湯）</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+<style>
+  *{box-sizing:border-box;}
+  body{
+    font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+    margin:0; padding:0; background:#f7f5f0;
+  }
+  h1{
+    font-size:18px; color:#1b3a5c; margin:0; padding:14px 20px 4px;
+  }
+  .sub{font-size:12px; color:#666; padding:0 20px 12px;}
+  #map{ width:100%; height:640px; }
+  .legend{
+    display:flex; gap:16px; flex-wrap:wrap; padding:10px 20px; font-size:12.5px; color:#333;
+    background:#fff; border-top:1px solid #e2ddd3;
+  }
+  .legend span{display:inline-flex; align-items:center; gap:6px;}
+  .dot{width:12px; height:12px; border-radius:50%; display:inline-block; border:2px solid #fff; box-shadow:0 0 0 1px rgba(0,0,0,0.2);}
+  .popup-name{font-weight:700; margin-bottom:2px;}
+  .popup-dist{font-size:12px; color:#555;}
+</style>
+</head>
+<body>
+
+<h1>横須賀ゼミ旅行 統合マップ</h1>
+<div class="sub">α宿・β宿・亀の湯・当り湯・佐野天然温泉（のぼり雲）を1枚の地図に配置</div>
+
+<div id="map"></div>
+
+<div class="legend">
+  <span><span class="dot" style="background:#1b3a5c;"></span>宿</span>
+  <span><span class="dot" style="background:#e07a3f;"></span>銭湯・温泉</span>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+  const points = [
+    { name: "α宿", type: "hotel", lat: 35.2755482, lng: 139.6612131, info: "汐入町3-65" },
+    { name: "β宿", type: "hotel", lat: 35.2732605, lng: 139.6623801, info: "不入斗町4-19" },
+    { name: "亀の湯", type: "bath", lat: 35.2794608, lng: 139.6598717,
+      info: "汐入町5-2｜20時まで・570円<br>α宿から徒歩13分（1.0km）<br>β宿から徒歩15分（1.0km）" },
+    { name: "当り湯", type: "bath", lat: 35.2686987, lng: 139.6680509,
+      info: "上町4-99｜21時まで・570円<br>α宿から徒歩20分（1.3km）<br>β宿から徒歩14分（1.0km）" },
+    { name: "佐野天然温泉（のぼり雲）", type: "bath", lat: 35.2643255, lng: 139.6679381,
+      info: "佐野町4-5｜1250円<br>α宿から徒歩26分（1.8km）<br>β宿から徒歩21分（1.5km）" }
+  ];
+
+  const map = L.map('map');
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  const bounds = [];
+  points.forEach(p => {
+    const color = p.type === 'hotel' ? '#1b3a5c' : '#e07a3f';
+    const marker = L.circleMarker([p.lat, p.lng], {
+      radius: 10,
+      fillColor: color,
+      color: '#fff',
+      weight: 2,
+      opacity: 1,
+      fillOpacity: 0.95
+    }).addTo(map);
+    marker.bindPopup(`<div class="popup-name">${p.name}</div><div class="popup-dist">${p.info}</div>`);
+    marker.bindTooltip(p.name, {permanent: false, direction: 'top'});
+    bounds.push([p.lat, p.lng]);
+  });
+
+  map.fitBounds(bounds, { padding: [40, 40] });
+</script>
+
+</body>
+</html>
