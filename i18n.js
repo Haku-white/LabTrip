@@ -276,22 +276,22 @@ I18N.en = `
   <div class="card">
     <b style="color:var(--ink);">Local food to try</b>
     <ul class="food-list">
-      <li><a href="https://www.cocoyoko.net/gourmet/curry-kaigun.html" target="_blank">Yokosuka Navy Curry</a></li>
+      <li><a href="https://www.cocoyoko.net/gourmet/curry-kaigun.html" target="_blank">Yokosuka Navy Curry</a><span class="perk">🎟️ Marugoto Ticket: free croquette topping at Yokosuka Navy Curry Main Store</span></li>
       <li><a href="https://www.cocoyoko.net/gourmet/yokosuka_navyburger.html" target="_blank">Yokosuka Navy Burger</a></li>
-      <li><a href="https://www.cocoyoko.net/sukameshi/menu/yokosuka_cherrycheesecake/" target="_blank">Cherry cheesecake</a></li>
+      <li><a href="https://dobuita-st.com/map_cccake.html" target="_blank">Cherry cheesecake</a></li>
     </ul>
   </div>
 
   <div class="card">
     <b style="color:var(--ink);">Sightseeing spots</b>
     <ul class="spot-list">
-      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>Memorial battleship "Mikasa"</b></a><span class="desc">Preserved early-1900s battleship — go aboard and explore the decks</span></li>
+      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>Memorial battleship "Mikasa"</b></a><span class="desc">Preserved early-1900s battleship — go aboard and explore the decks</span><span class="perk">🎟️ Marugoto Ticket: ¥100 off admission (adult ¥600→¥500, high school ¥300→¥200, elementary/JHS free)</span></li>
       <li><a href="https://coaska.jp/" target="_blank"><b>Shioiri Terminal</b></a><span class="desc">Shopping complex inside Coaska Bayside Stores, 5 min walk from Shioiri Sta.</span></li>
       <li><a href="https://dobuita-st.com/" target="_blank"><b>Dobuita Street</b></a><span class="desc">Retro shopping arcade with a US Navy-town atmosphere, 5 min walk north of Shioiri Sta.</span></li>
       <li><a href="https://www.cocoyoko.net/spot/verny-park.html" target="_blank"><b>Verny Park</b></a><span class="desc">Seaside French-style rose garden, 5 min walk from Shioiri Sta.</span></li>
       <li><a href="https://www.cocoyoko.net/spot/umikaze-park.html" target="_blank"><b>Umikaze Park</b></a><span class="desc">Waterfront park with a BBQ area, skate park, and a big lawn slide</span></li>
-      <li><a href="https://www.cocoyoko.net/spot/kannonzaki-park.html" target="_blank"><b>Kannonzaki Lighthouse</b></a><span class="desc">Japan's first Western-style lighthouse — climb up for views across Tokyo Bay</span></li>
-      <li><a href="https://www.cocoyoko.net/spot/hananokuni.html" target="_blank"><b>Kurihama Flower Park</b></a><span class="desc">Hillside flower park famous for cosmos and poppies, with a Godzilla-shaped slide</span></li>
+      <li><a href="https://www.cocoyoko.net/spot/kannonzaki-park.html" target="_blank"><b>Kannonzaki Lighthouse</b></a><span class="desc">Japan's first Western-style lighthouse — climb up for views across Tokyo Bay</span><span class="perk">🎟️ Marugoto Ticket: free original sticker</span></li>
+      <li><a href="https://www.cocoyoko.net/spot/hananokuni.html" target="_blank"><b>Kurihama Flower Park</b></a><span class="desc">Hillside flower park famous for cosmos and poppies, with a Godzilla-shaped slide</span><span class="perk">🎟️ Marugoto Ticket: ¥100 off soft-serve ice cream at the Cosmos Hall shop</span></li>
     </ul>
     <div class="callout warn" style="margin-top:10px;"><span class="ico">🚧</span><div>The Yokosuka Museum of Art is currently closed.</div></div>
   </div>
@@ -586,22 +586,22 @@ I18N.ja = `
   <div class="card">
     <b style="color:var(--ink);">名物グルメ</b>
     <ul class="food-list">
-      <li><a href="https://www.cocoyoko.net/gourmet/curry-kaigun.html" target="_blank">横須賀海軍カレー</a></li>
+      <li><a href="https://www.cocoyoko.net/gourmet/curry-kaigun.html" target="_blank">横須賀海軍カレー</a><span class="perk">🎟️ まるごと切符提示でカレーコロッケトッピングサービス（横須賀海軍カレー本舗）</span></li>
       <li><a href="https://www.cocoyoko.net/gourmet/yokosuka_navyburger.html" target="_blank">横須賀ネイビーバーガー</a></li>
-      <li><a href="https://www.cocoyoko.net/sukameshi/menu/yokosuka_cherrycheesecake/" target="_blank">チェリーチーズケーキ</a></li>
+      <li><a href="https://dobuita-st.com/map_cccake.html" target="_blank">チェリーチーズケーキ</a></li>
     </ul>
   </div>
 
   <div class="card">
     <b style="color:var(--ink);">観光地</b>
     <ul class="spot-list">
-      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>記念館「三笠」</b></a><span class="desc">明治時代の戦艦をそのまま保存した記念艦。艦内を見学できる</span></li>
+      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>記念館「三笠」</b></a><span class="desc">明治時代の戦艦をそのまま保存した記念艦。艦内を見学できる</span><span class="perk">🎟️ まるごと切符提示で入艦料割引（大人600円→500円、高校生300円→200円、小中学生無料）</span></li>
       <li><a href="https://coaska.jp/" target="_blank"><b>汐入ターミナル</b></a><span class="desc">コースカベイサイドストアーズ内の商業施設。汐入駅から徒歩5分</span></li>
       <li><a href="https://dobuita-st.com/" target="_blank"><b>ドブ板通り商店街</b></a><span class="desc">アメリカンな雰囲気が漂うレトロな商店街。汐入駅から徒歩5分（北側）</span></li>
       <li><a href="https://www.cocoyoko.net/spot/verny-park.html" target="_blank"><b>ヴェルニー公園</b></a><span class="desc">バラが彩るフランス式庭園のある海沿いの公園。汐入駅から徒歩5分</span></li>
       <li><a href="https://www.cocoyoko.net/spot/umikaze-park.html" target="_blank"><b>うみかぜ公園</b></a><span class="desc">BBQ広場や芝すべり台もある海沿いの公園</span></li>
-      <li><a href="https://www.cocoyoko.net/spot/kannonzaki-park.html" target="_blank"><b>観音崎灯台</b></a><span class="desc">日本初の洋式灯台。上まで登れて東京湾を一望できる</span></li>
-      <li><a href="https://www.cocoyoko.net/spot/hananokuni.html" target="_blank"><b>くりはま花の国</b></a><span class="desc">コスモスやポピーで有名な丘の上の花公園。ゴジラの滑り台も</span></li>
+      <li><a href="https://www.cocoyoko.net/spot/kannonzaki-park.html" target="_blank"><b>観音崎灯台</b></a><span class="desc">日本初の洋式灯台。上まで登れて東京湾を一望できる</span><span class="perk">🎟️ まるごと切符提示でオリジナルステッカープレゼント</span></li>
+      <li><a href="https://www.cocoyoko.net/spot/hananokuni.html" target="_blank"><b>くりはま花の国</b></a><span class="desc">コスモスやポピーで有名な丘の上の花公園。ゴジラの滑り台も</span><span class="perk">🎟️ まるごと切符提示でソフトクリーム100円引き（コスモス館売店）</span></li>
     </ul>
     <div class="callout warn" style="margin-top:10px;"><span class="ico">🚧</span><div>横須賀美術館は休館中です。</div></div>
   </div>
@@ -896,22 +896,22 @@ I18N["zh-Hans"] = `
   <div class="card">
     <b style="color:var(--ink);">特色美食</b>
     <ul class="food-list">
-      <li><a href="https://www.cocoyoko.net/gourmet/curry-kaigun.html" target="_blank">横须贺海军咖喱</a></li>
+      <li><a href="https://www.cocoyoko.net/gourmet/curry-kaigun.html" target="_blank">横须贺海军咖喱</a><span class="perk">🎟️ 出示周游券可获赠咖喱可乐饼配料（横须贺海军咖喱本铺）</span></li>
       <li><a href="https://www.cocoyoko.net/gourmet/yokosuka_navyburger.html" target="_blank">横须贺海军汉堡</a></li>
-      <li><a href="https://www.cocoyoko.net/sukameshi/menu/yokosuka_cherrycheesecake/" target="_blank">樱桃芝士蛋糕</a></li>
+      <li><a href="https://dobuita-st.com/map_cccake.html" target="_blank">樱桃芝士蛋糕</a></li>
     </ul>
   </div>
 
   <div class="card">
     <b style="color:var(--ink);">观光景点</b>
     <ul class="spot-list">
-      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>纪念舰「三笠」</b></a><span class="desc">明治时代战舰原样保存的纪念舰，可登舰参观</span></li>
+      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>纪念舰「三笠」</b></a><span class="desc">明治时代战舰原样保存的纪念舰，可登舰参观</span><span class="perk">🎟️ 出示周游券可享入舰门票优惠（成人¥600→¥500，高中生¥300→¥200，中小学生免费）</span></li>
       <li><a href="https://coaska.jp/" target="_blank"><b>汐入码头商场</b></a><span class="desc">位于Coaska Bayside Stores内的购物设施，距汐入站步行5分钟</span></li>
       <li><a href="https://dobuita-st.com/" target="_blank"><b>多布板通商店街</b></a><span class="desc">充满美式怀旧氛围的商店街，距汐入站步行5分钟（北侧）</span></li>
       <li><a href="https://www.cocoyoko.net/spot/verny-park.html" target="_blank"><b>凡尔尼公园</b></a><span class="desc">拥有法式玫瑰花坛的海滨公园，距汐入站步行5分钟，可眺望海景</span></li>
       <li><a href="https://www.cocoyoko.net/spot/umikaze-park.html" target="_blank"><b>海风公园</b></a><span class="desc">海边公园，设有烧烤区和大型草坡滑梯</span></li>
-      <li><a href="https://www.cocoyoko.net/spot/kannonzaki-park.html" target="_blank"><b>观音崎灯塔</b></a><span class="desc">日本第一座西式灯塔，登顶可俯瞰东京湾</span></li>
-      <li><a href="https://www.cocoyoko.net/spot/hananokuni.html" target="_blank"><b>栗滨花之国</b></a><span class="desc">以波斯菊、虞美人闻名的丘陵花园，还有哥斯拉滑梯</span></li>
+      <li><a href="https://www.cocoyoko.net/spot/kannonzaki-park.html" target="_blank"><b>观音崎灯塔</b></a><span class="desc">日本第一座西式灯塔，登顶可俯瞰东京湾</span><span class="perk">🎟️ 出示周游券可获赠原创贴纸</span></li>
+      <li><a href="https://www.cocoyoko.net/spot/hananokuni.html" target="_blank"><b>栗滨花之国</b></a><span class="desc">以波斯菊、虞美人闻名的丘陵花园，还有哥斯拉滑梯</span><span class="perk">🎟️ 出示周游券软冰淇淋优惠100日元（Cosmos馆商店）</span></li>
     </ul>
     <div class="callout warn" style="margin-top:10px;"><span class="ico">🚧</span><div>横须贺美术馆目前休馆中。</div></div>
   </div>
@@ -1206,22 +1206,22 @@ I18N["zh-Hant"] = `
   <div class="card">
     <b style="color:var(--ink);">特色美食</b>
     <ul class="food-list">
-      <li><a href="https://www.cocoyoko.net/gourmet/curry-kaigun.html" target="_blank">橫須賀海軍咖哩</a></li>
+      <li><a href="https://www.cocoyoko.net/gourmet/curry-kaigun.html" target="_blank">橫須賀海軍咖哩</a><span class="perk">🎟️ 出示周遊券可獲贈咖哩可樂餅配料（橫須賀海軍咖哩本舖）</span></li>
       <li><a href="https://www.cocoyoko.net/gourmet/yokosuka_navyburger.html" target="_blank">橫須賀海軍漢堡</a></li>
-      <li><a href="https://www.cocoyoko.net/sukameshi/menu/yokosuka_cherrycheesecake/" target="_blank">櫻桃起司蛋糕</a></li>
+      <li><a href="https://dobuita-st.com/map_cccake.html" target="_blank">櫻桃起司蛋糕</a></li>
     </ul>
   </div>
 
   <div class="card">
     <b style="color:var(--ink);">觀光景點</b>
     <ul class="spot-list">
-      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>紀念艦「三笠」</b></a><span class="desc">明治時代戰艦原樣保存的紀念艦，可登艦參觀</span></li>
+      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>紀念艦「三笠」</b></a><span class="desc">明治時代戰艦原樣保存的紀念艦，可登艦參觀</span><span class="perk">🎟️ 出示周遊券可享入艦門票優惠（成人¥600→¥500，高中生¥300→¥200，中小學生免費）</span></li>
       <li><a href="https://coaska.jp/" target="_blank"><b>汐入碼頭商場</b></a><span class="desc">位於Coaska Bayside Stores內的購物設施，距汐入站步行5分鐘</span></li>
       <li><a href="https://dobuita-st.com/" target="_blank"><b>多布板通商店街</b></a><span class="desc">充滿美式懷舊氛圍的商店街，距汐入站步行5分鐘（北側）</span></li>
       <li><a href="https://www.cocoyoko.net/spot/verny-park.html" target="_blank"><b>凡爾尼公園</b></a><span class="desc">擁有法式玫瑰花壇的海濱公園，距汐入站步行5分鐘，可眺望海景</span></li>
       <li><a href="https://www.cocoyoko.net/spot/umikaze-park.html" target="_blank"><b>海風公園</b></a><span class="desc">海邊公園，設有烤肉區和大型草坡溜滑梯</span></li>
-      <li><a href="https://www.cocoyoko.net/spot/kannonzaki-park.html" target="_blank"><b>觀音崎燈塔</b></a><span class="desc">日本第一座西式燈塔，登頂可俯瞰東京灣</span></li>
-      <li><a href="https://www.cocoyoko.net/spot/hananokuni.html" target="_blank"><b>栗濱花之國</b></a><span class="desc">以波斯菊、虞美人聞名的丘陵花園，還有哥吉拉溜滑梯</span></li>
+      <li><a href="https://www.cocoyoko.net/spot/kannonzaki-park.html" target="_blank"><b>觀音崎燈塔</b></a><span class="desc">日本第一座西式燈塔，登頂可俯瞰東京灣</span><span class="perk">🎟️ 出示周遊券可獲贈原創貼紙</span></li>
+      <li><a href="https://www.cocoyoko.net/spot/hananokuni.html" target="_blank"><b>栗濱花之國</b></a><span class="desc">以波斯菊、虞美人聞名的丘陵花園，還有哥吉拉溜滑梯</span><span class="perk">🎟️ 出示周遊券霜淇淋優惠100日圓（Cosmos館商店）</span></li>
     </ul>
     <div class="callout warn" style="margin-top:10px;"><span class="ico">🚧</span><div>橫須賀美術館目前休館中。</div></div>
   </div>

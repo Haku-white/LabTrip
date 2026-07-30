@@ -395,6 +395,14 @@ h3.day-heading{
 .spot-list a b{color:var(--brand-dark);}
 .spot-list a:hover b{text-decoration:underline;}
 .spot-list .desc{display:block; color:var(--ink-soft); font-size:0.82rem; margin-top:2px;}
+.spot-list .perk,
+.food-list .perk{
+  display:block;
+  color:var(--amber);
+  font-size:0.8rem;
+  font-weight:600;
+  margin-top:3px;
+}
 
 /* ===== Local food list (distinct link styling) ===== */
 .food-list{list-style:none; margin:8px 0; padding:0;}
@@ -404,7 +412,7 @@ h3.day-heading{
   font-size:0.9rem;
 }
 .food-list li:last-child{border-bottom:none;}
-.food-list a{color:#1a73e8; font-weight:600;}
+.food-list a{color:var(--brand-dark); font-weight:600;}
 .food-list a:hover{text-decoration:underline;}
 
 /* ===== Misc ===== */
