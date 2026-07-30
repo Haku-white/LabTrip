@@ -13,7 +13,7 @@ I18N.en = `
     <div class="dates">
       <span>📅 Aug 22–23, 2026</span>
       <span>Created 2026/06/01</span>
-      <span>Updated 2026/06/01</span>
+      <span>Updated 2026/07/30</span>
     </div>
   </div>
 </div>
@@ -328,7 +328,7 @@ I18N.ja = `
     <div class="dates">
       <span>📅 2026/08/22～2026/08/23</span>
       <span>作成日 2026/06/01</span>
-      <span>更新日 2026/06/01</span>
+      <span>更新日 2026/07/30</span>
     </div>
   </div>
 </div>
@@ -643,7 +643,7 @@ I18N["zh-Hans"] = `
     <div class="dates">
       <span>📅 2026年8月22日–23日</span>
       <span>创建日期 2026/06/01</span>
-      <span>更新日期 2026/06/01</span>
+      <span>更新日期 2026/07/30</span>
     </div>
   </div>
 </div>
@@ -958,7 +958,7 @@ I18N["zh-Hant"] = `
     <div class="dates">
       <span>📅 2026年8月22日–23日</span>
       <span>建立日期 2026/06/01</span>
-      <span>更新日期 2026/06/01</span>
+      <span>更新日期 2026/07/30</span>
     </div>
   </div>
 </div>
