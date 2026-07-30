@@ -197,8 +197,8 @@ I18N.en = `
           <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 Map</a></div>
           <div class="chips">
             <span class="chip lead">Kita</span>
-            <span class="chip">柯</span><span class="chip">金</span><span class="chip">Ishii</span><span class="chip">Minami</span>
-            <span class="chip">Kurokawa</span><span class="chip">卓</span><span class="chip">Hamamoto</span><span class="chip">Naiki</span><span class="chip">Yoshida</span>
+            <span class="chip">Ko</span><span class="chip">Jin</span><span class="chip">Ishii</span><span class="chip">Minami</span>
+            <span class="chip">Kurokawa</span><span class="chip">Zhuo</span><span class="chip">Hamamoto</span><span class="chip">Naiki</span><span class="chip">Yoshida</span>
           </div>
         </div>
       </div>
