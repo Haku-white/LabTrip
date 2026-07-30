@@ -298,7 +298,7 @@ I18N.en = `
 
   <div class="callout info">
     <span class="ico">🛁</span>
-    <div><b>Sento recommended by our Airbnb host</b><br>Yokosuka Onsen Yura-no-Sato — ¥1,230 (near Umakobori-kaigan Station) — <a href="https://maps.app.goo.gl/DkFhivqPiDigEcMo8" target="_blank">map link</a></div>
+    <div><b>Sento recommended by our Airbnb host</b><br>Yokosuka Onsen Yura-no-Sato — ¥1,230 (¥50 off with the Marugoto Ticket; near Umakobori-kaigan Station) — <a href="https://maps.app.goo.gl/DkFhivqPiDigEcMo8" target="_blank">map link</a></div>
   </div>
 
   <p style="font-weight:700; color:var(--ink); margin:22px 0 10px;">💰 Bill-Splitting Site — "Warika"</p>
@@ -608,7 +608,7 @@ I18N.ja = `
 
   <div class="callout info">
     <span class="ico">🛁</span>
-    <div><b>Airbnb運営者のおススメ銭湯</b><br>横須賀温泉 湯楽の里 — 1,230円（馬堀海岸駅）— <a href="https://maps.app.goo.gl/DkFhivqPiDigEcMo8" target="_blank">地図</a></div>
+    <div><b>Airbnb運営者のおススメ銭湯</b><br>横須賀温泉 湯楽の里 — 1,230円（まるごと切符提示で50円引き・馬堀海岸駅）— <a href="https://maps.app.goo.gl/DkFhivqPiDigEcMo8" target="_blank">地図</a></div>
   </div>
 
   <p style="font-weight:700; color:var(--ink); margin:22px 0 10px;">💰 割り勘サイト"ワリカ"</p>
@@ -918,7 +918,7 @@ I18N["zh-Hans"] = `
 
   <div class="callout info">
     <span class="ico">🛁</span>
-    <div><b>Airbnb房东推荐的钱汤</b><br>横须贺温泉 汤乐之里 — ¥1,230（近马堀海岸站）— <a href="https://maps.app.goo.gl/DkFhivqPiDigEcMo8" target="_blank">地图连结</a></div>
+    <div><b>Airbnb房东推荐的钱汤</b><br>横须贺温泉 汤乐之里 — ¥1,230（出示周游券可减50日元・近马堀海岸站）— <a href="https://maps.app.goo.gl/DkFhivqPiDigEcMo8" target="_blank">地图连结</a></div>
   </div>
 
   <p style="font-weight:700; color:var(--ink); margin:22px 0 10px;">💰 分帐网站「Warika」</p>
@@ -1228,7 +1228,7 @@ I18N["zh-Hant"] = `
 
   <div class="callout info">
     <span class="ico">🛁</span>
-    <div><b>Airbnb房東推薦的錢湯</b><br>橫須賀溫泉 湯樂之里 — ¥1,230（近馬堀海岸站）— <a href="https://maps.app.goo.gl/DkFhivqPiDigEcMo8" target="_blank">地圖連結</a></div>
+    <div><b>Airbnb房東推薦的錢湯</b><br>橫須賀溫泉 湯樂之里 — ¥1,230（出示周遊券可減50日圓・近馬堀海岸站）— <a href="https://maps.app.goo.gl/DkFhivqPiDigEcMo8" target="_blank">地圖連結</a></div>
   </div>
 
   <p style="font-weight:700; color:var(--ink); margin:22px 0 10px;">💰 分帳網站「Warika」</p>
