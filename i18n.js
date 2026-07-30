@@ -109,7 +109,15 @@ I18N.en = `
     <span class="time-badge">09:20</span>
     <div class="event-title">Meet at Yokohama Station, "Keikyu central ticket gate"</div>
     <div class="event-body">
-      <p>Same Marugoto Ticket as above — only the <b>ride ticket</b> is handed out, so keep it safe.</p>
+      <div class="callout info">
+        <span class="ico">🎫</span>
+        <div>We will have purchased the <a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">Miura Peninsula Marugoto Ticket</a>. It's a set of 3 tickets, but only the <b>ride ticket</b> will be handed out — please keep it safe.</div>
+      </div>
+      <ul class="ticket-list">
+        <li><b>🎫 Ride ticket</b>Round-trip Yokohama ⇄ Kanazawa-bunko, plus a 2-day unlimited-ride pass on Keikyu trains/buses south of Kanazawa-bunko</li>
+        <li><b>🍽️ Meal ticket</b>Free menu item at participating restaurants — used for lunch on Day 2</li>
+        <li><b>🏄 Facility-use / souvenir ticket</b>Used for SUP on Day 2. If SUP is cancelled, use it as a souvenir voucher instead</li>
+      </ul>
       <div class="callout warn">
         <span class="ico">⚠️</span>
         <div>Running late? Contact us on Slack (including Saito and Kita).</div>
@@ -394,7 +402,7 @@ I18N.ja = `
     <span class="time-badge">09:00</span>
     <div class="event-title">横浜駅"京急中央改札前"集合</div>
     <div class="event-body">
-      <p><b>先発隊：</b>喜多、黒川、石井、吉田、内木、濱元、杉崎</p>
+      <p><b>先発隊：</b>喜多、黒川、石井、吉田、内木、濱元、杉﨑</p>
       <div class="callout info">
         <span class="ico">🎫</span>
         <div><a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">"三浦半島まるごと切符"</a>を購入しています。以下の3枚のチケットがセットになっていますが、<b>"乗車券"</b>のみお渡しするので大切に保管してください。</div>
@@ -424,7 +432,15 @@ I18N.ja = `
     <span class="time-badge">09:20</span>
     <div class="event-title">横浜駅"京急中央改札前"集合</div>
     <div class="event-body">
-      <p>同じく"三浦半島まるごと切符"を購入しています。<b>"乗車券"</b>のみお渡しするので大切に保管してください。</p>
+      <div class="callout info">
+        <span class="ico">🎫</span>
+        <div><a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">"三浦半島まるごと切符"</a>を購入しています。以下の3枚のチケットがセットになっていますが、<b>"乗車券"</b>のみお渡しするので大切に保管してください。</div>
+      </div>
+      <ul class="ticket-list">
+        <li><b>🎫 乗車券</b>横浜駅⇔金沢文庫駅の往復乗車券と、金沢文庫駅以南の京急鉄道・バスの2日間乗り放題乗車券</li>
+        <li><b>🍽️ お食事券</b>対象店舗のメニューが無料になるチケット。2日目昼食に使用</li>
+        <li><b>🏄 施設利用券orお土産券</b>2日目SUPに使用。中止の場合はお土産券として使用してください</li>
+      </ul>
       <div class="callout warn">
         <span class="ico">⚠️</span>
         <div>遅刻をする場合は齋藤・喜多を含めたSlackで連絡してください。</div>
@@ -492,9 +508,9 @@ I18N.ja = `
           <div class="chips">
             <span class="chip lead">齋藤</span>
             <span class="chip">早川先生</span><span class="chip">難波江先生</span><span class="chip">高橋先生</span>
-            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曽根</span><span class="chip">菊池</span>
+            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曽根</span><span class="chip">菊地</span>
             <span class="chip">佐々木</span><span class="chip">須崎</span><span class="chip">山崎</span><span class="chip">東</span>
-            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
+            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉﨑</span><span class="chip">Lee</span>
           </div>
         </div>
         <div class="room">
@@ -709,7 +725,7 @@ I18N["zh-Hans"] = `
     <span class="time-badge">09:00</span>
     <div class="event-title">集合地点：横滨站「京急中央检票口前」</div>
     <div class="event-body">
-      <p><b>先遣队：</b>喜多、黑川、石井、吉田、内木、滨元、杉崎</p>
+      <p><b>先遣队：</b>喜多、黑川、石井、吉田、内木、滨元、杉﨑</p>
       <div class="callout info">
         <span class="ico">🎫</span>
         <div>我们已购买了<a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">「三浦半岛周游券」</a>。这是一套3张的车票组合，但当天只会发放<b>乘车券</b>，请妥善保管。</div>
@@ -739,7 +755,15 @@ I18N["zh-Hans"] = `
     <span class="time-badge">09:20</span>
     <div class="event-title">集合地点：横滨站「京急中央检票口前」</div>
     <div class="event-body">
-      <p>同样购买了「三浦半岛周游券」，当天只会发放<b>乘车券</b>，请妥善保管。</p>
+      <div class="callout info">
+        <span class="ico">🎫</span>
+        <div>我们已购买了<a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">「三浦半岛周游券」</a>。这是一套3张的车票组合，但当天只会发放<b>乘车券</b>，请妥善保管。</div>
+      </div>
+      <ul class="ticket-list">
+        <li><b>🎫 乘车券</b>横滨站⇔金泽文库站往返车票，加上金泽文库站以南京急电铁・巴士2日无限次乘坐券</li>
+        <li><b>🍽️ 餐券</b>可在指定店铺兑换免费餐点，将用于第二天午餐</li>
+        <li><b>🏄 设施使用券／伴手礼券</b>用于第二天的SUP桨板体验。若SUP取消，可作为伴手礼兑换券使用</li>
+      </ul>
       <div class="callout warn">
         <span class="ico">⚠️</span>
         <div>若会迟到，请在Slack上联系我们（包含斋藤和喜多）。</div>
@@ -807,9 +831,9 @@ I18N["zh-Hans"] = `
           <div class="chips">
             <span class="chip lead">斋藤</span>
             <span class="chip">早川教授</span><span class="chip">难波江副教授</span><span class="chip">高桥助理教授</span>
-            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊池</span>
+            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊地</span>
             <span class="chip">佐佐木</span><span class="chip">须崎</span><span class="chip">山崎</span><span class="chip">东</span>
-            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
+            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉﨑</span><span class="chip">Lee</span>
           </div>
         </div>
         <div class="room">
@@ -1024,7 +1048,7 @@ I18N["zh-Hant"] = `
     <span class="time-badge">09:00</span>
     <div class="event-title">集合地點：橫濱站「京急中央剪票口前」</div>
     <div class="event-body">
-      <p><b>先遣隊：</b>喜多、黑川、石井、吉田、內木、濱元、杉崎</p>
+      <p><b>先遣隊：</b>喜多、黑川、石井、吉田、內木、濱元、杉﨑</p>
       <div class="callout info">
         <span class="ico">🎫</span>
         <div>我們已購買了<a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">「三浦半島周遊券」</a>。這是一套3張的車票組合，但當天只會發放<b>乘車券</b>，請妥善保管。</div>
@@ -1054,7 +1078,15 @@ I18N["zh-Hant"] = `
     <span class="time-badge">09:20</span>
     <div class="event-title">集合地點：橫濱站「京急中央剪票口前」</div>
     <div class="event-body">
-      <p>同樣購買了「三浦半島周遊券」，當天只會發放<b>乘車券</b>，請妥善保管。</p>
+      <div class="callout info">
+        <span class="ico">🎫</span>
+        <div>我們已購買了<a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">「三浦半島周遊券」</a>。這是一套3張的車票組合，但當天只會發放<b>乘車券</b>，請妥善保管。</div>
+      </div>
+      <ul class="ticket-list">
+        <li><b>🎫 乘車券</b>橫濱站⇔金澤文庫站來回車票，加上金澤文庫站以南京急電鐵・巴士2日無限次搭乘券</li>
+        <li><b>🍽️ 餐券</b>可在指定店鋪兌換免費餐點，將用於第二天午餐</li>
+        <li><b>🏄 設施使用券／伴手禮券</b>用於第二天的SUP槳板體驗。若SUP取消，可作為伴手禮兌換券使用</li>
+      </ul>
       <div class="callout warn">
         <span class="ico">⚠️</span>
         <div>若會遲到，請在Slack上聯絡我們（包含齋藤和喜多）。</div>
@@ -1122,9 +1154,9 @@ I18N["zh-Hant"] = `
           <div class="chips">
             <span class="chip lead">齋藤</span>
             <span class="chip">早川教授</span><span class="chip">難波江副教授</span><span class="chip">高橋助理教授</span>
-            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊池</span>
+            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊地</span>
             <span class="chip">佐佐木</span><span class="chip">須崎</span><span class="chip">山崎</span><span class="chip">東</span>
-            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
+            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉﨑</span><span class="chip">Lee</span>
           </div>
         </div>
         <div class="room">
