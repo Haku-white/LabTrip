@@ -165,6 +165,34 @@ I18N.en = `
     <div class="event-body">
       <p>We'll drop off our bags at the accommodation. There are two buildings, <b>α</b> and <b>β</b>. Saito leads α, Kita leads β. Please use the bath, sleep, and eat breakfast within your own building.</p>
       <p>Once your bags are dropped off, it's free time. There's no shopping errand this time, but please go ahead and take your bath at some point.</p>
+
+      <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 Room assignments</p>
+      <p class="note" style="margin-top:-2px; margin-bottom:2px;">Getting there is on foot by default. 🚶 α ⇄ β: about a 6-minute walk.</p>
+      <p class="note" style="margin-bottom:10px;">🚌 Optional: Keikyu Bus route Su20 also connects Shioiri Sta. ⇄ Sakamoto-icchome bus stop (right by both buildings) — free with the Marugoto Ticket — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">timetable</a></p>
+      <div class="rooms">
+        <div class="room">
+          <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 Map</a></div>
+          <p class="note" style="margin:-2px 0 8px;">🚶 15 min walk from Shioiri Sta. (1.0 km) · 5 min walk from the Sakamoto-icchome bus stop (300 m)</p>
+          <div class="chips">
+            <span class="chip lead">Saito</span>
+            <span class="chip">Prof. Hayakawa</span><span class="chip">Assoc. Prof. Nanbae</span><span class="chip">Asst. Prof. Takahashi</span>
+            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">Sone</span><span class="chip">Kikuchi</span>
+            <span class="chip">Sasaki</span><span class="chip">Suzaki</span><span class="chip">Yamazaki</span><span class="chip">Azuma</span>
+            <span class="chip">Hiramatsu</span><span class="chip">Matsuo</span><span class="chip">Sugizaki</span><span class="chip">Lee</span>
+          </div>
+        </div>
+        <div class="room">
+          <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 Map</a></div>
+          <p class="note" style="margin:-2px 0 8px;">🚶 16 min walk from Shioiri Sta. (1.0 km) · 5 min walk from the Sakamoto-icchome bus stop (290 m)</p>
+          <div class="chips">
+            <span class="chip lead">Kita</span>
+            <span class="chip">Ko</span><span class="chip">Jin</span><span class="chip">Ishii</span><span class="chip">Minami</span>
+            <span class="chip">Kurokawa</span><span class="chip">Zhuo</span><span class="chip">Hamamoto</span><span class="chip">Naiki</span><span class="chip">Yoshida</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
       <div class="callout info">
         <span class="ico">🛁</span>
         <div>Each building has one bath, but there are sento (public bathhouses) nearby too — use whichever you prefer. If you go to a sento, let us know the cost and we'll deduct it from your trip fee.</div>
@@ -178,31 +206,6 @@ I18N.en = `
         <div class="sento"><div><div class="name">Tokiwa-yu <a class="sento-map" href="https://maps.app.goo.gl/gR1TLsHfpsh4y1zu7" target="_blank">📍 Map</a></div><div class="meta">until 22:00 · 27 min walk from α · 22 min walk from β</div></div><div class="price">¥570</div></div>
       </div>
       <p class="note">Hours and prices may have changed — please double-check.</p>
-
-      <div class="divider"></div>
-      <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 Room assignments</p>
-      <p class="note" style="margin-top:-2px; margin-bottom:2px;">🚶 α ⇄ β: about a 6-minute walk</p>
-      <p class="note" style="margin-bottom:10px;">🚌 Shioiri Sta. ⇄ Sakamoto-icchome bus stop (right by both buildings): Keikyu Bus route Su20 — free with the Marugoto Ticket — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">timetable</a></p>
-      <div class="rooms">
-        <div class="room">
-          <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 Map</a></div>
-          <div class="chips">
-            <span class="chip lead">Saito</span>
-            <span class="chip">Prof. Hayakawa</span><span class="chip">Assoc. Prof. Nanbae</span><span class="chip">Asst. Prof. Takahashi</span>
-            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">Sone</span><span class="chip">Kikuchi</span>
-            <span class="chip">Sasaki</span><span class="chip">Suzaki</span><span class="chip">Yamazaki</span><span class="chip">Azuma</span>
-            <span class="chip">Hiramatsu</span><span class="chip">Matsuo</span><span class="chip">Sugizaki</span><span class="chip">Lee</span>
-          </div>
-        </div>
-        <div class="room">
-          <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 Map</a></div>
-          <div class="chips">
-            <span class="chip lead">Kita</span>
-            <span class="chip">Ko</span><span class="chip">Jin</span><span class="chip">Ishii</span><span class="chip">Minami</span>
-            <span class="chip">Kurokawa</span><span class="chip">Zhuo</span><span class="chip">Hamamoto</span><span class="chip">Naiki</span><span class="chip">Yoshida</span>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -476,6 +479,34 @@ I18N.ja = `
     <div class="event-body">
       <p>宿に荷物を置きに行きます。αとβの2棟の宿があります。αは齋藤、βは喜多が引率します。就寝と朝食はそれぞれの棟でお願いします。</p>
       <p>宿に荷物を置いたら自由時間です。買い出し等はありませんが、順次お風呂を済ませておいてください。</p>
+
+      <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 棟分け</p>
+      <p class="note" style="margin-top:-2px; margin-bottom:2px;">基本は徒歩移動を想定しています。🚶 α⇄β：徒歩約6分。</p>
+      <p class="note" style="margin-bottom:10px;">🚌 補足：京急バス須20系統でも汐入駅⇔坂本一丁目（両宿のすぐそば）を移動できます — 三浦半島まるごと切符で乗車無料 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">時刻表</a></p>
+      <div class="rooms">
+        <div class="room">
+          <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地図</a></div>
+          <p class="note" style="margin:-2px 0 8px;">🚶 汐入駅から徒歩15分（1.0km）・坂本一丁目バス停から徒歩5分（300m）</p>
+          <div class="chips">
+            <span class="chip lead">齋藤</span>
+            <span class="chip">早川先生</span><span class="chip">難波江先生</span><span class="chip">高橋先生</span>
+            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曽根</span><span class="chip">菊池</span>
+            <span class="chip">佐々木</span><span class="chip">須崎</span><span class="chip">山崎</span><span class="chip">東</span>
+            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
+          </div>
+        </div>
+        <div class="room">
+          <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 地図</a></div>
+          <p class="note" style="margin:-2px 0 8px;">🚶 汐入駅から徒歩16分（1.0km）・坂本一丁目バス停から徒歩5分（290m）</p>
+          <div class="chips">
+            <span class="chip lead">喜多</span>
+            <span class="chip">柯</span><span class="chip">金</span><span class="chip">石井</span><span class="chip">南</span>
+            <span class="chip">黒川</span><span class="chip">卓</span><span class="chip">濱元</span><span class="chip">内木</span><span class="chip">吉田</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
       <div class="callout info">
         <span class="ico">🛁</span>
         <div>お風呂は各宿に一つずつありますが、近くに銭湯もあるので好きな方を利用してください。銭湯に行った際は費用と共に連絡していただければ、旅行費用の集金の際に加味します。</div>
@@ -489,31 +520,6 @@ I18N.ja = `
         <div class="sento"><div><div class="name">常盤湯 <a class="sento-map" href="https://maps.app.goo.gl/gR1TLsHfpsh4y1zu7" target="_blank">📍 地図</a></div><div class="meta">22時まで・α宿から徒歩27分・β宿から徒歩22分</div></div><div class="price">570円</div></div>
       </div>
       <p class="note">時間や料金は変更になっている可能性がありますのでご注意ください。</p>
-
-      <div class="divider"></div>
-      <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 棟分け</p>
-      <p class="note" style="margin-top:-2px; margin-bottom:2px;">🚶 α⇄β：徒歩約6分</p>
-      <p class="note" style="margin-bottom:10px;">🚌 汐入駅⇔坂本一丁目（両宿のすぐそば）：京急バス須20系統 — 三浦半島まるごと切符で乗車無料 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">時刻表</a></p>
-      <div class="rooms">
-        <div class="room">
-          <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地図</a></div>
-          <div class="chips">
-            <span class="chip lead">齋藤</span>
-            <span class="chip">早川先生</span><span class="chip">難波江先生</span><span class="chip">高橋先生</span>
-            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曽根</span><span class="chip">菊池</span>
-            <span class="chip">佐々木</span><span class="chip">須崎</span><span class="chip">山崎</span><span class="chip">東</span>
-            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
-          </div>
-        </div>
-        <div class="room">
-          <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 地図</a></div>
-          <div class="chips">
-            <span class="chip lead">喜多</span>
-            <span class="chip">柯</span><span class="chip">金</span><span class="chip">石井</span><span class="chip">南</span>
-            <span class="chip">黒川</span><span class="chip">卓</span><span class="chip">濱元</span><span class="chip">内木</span><span class="chip">吉田</span>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -787,6 +793,34 @@ I18N["zh-Hans"] = `
     <div class="event-body">
       <p>我们会先到住宿处放行李。住宿共分<b>α</b>、<b>β</b>两栋，α栋由斋藤带队，β栋由喜多带队。请在各自所属的房栋内洗澡、就寝及用早餐。</p>
       <p>放完行李后就是自由活动时间。这段时间不需要採购，但请大家陆续洗好澡。</p>
+
+      <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 房栋分配</p>
+      <p class="note" style="margin-top:-2px; margin-bottom:2px;">基本上以步行移动为主。🚶 α⇄β：步行约6分钟。</p>
+      <p class="note" style="margin-bottom:10px;">🚌 补充：也可搭乘京急巴士须20路线往返汐入站⇔坂本一丁目（就在两栋住宿附近）— 凭三浦半岛周游券免费搭乘 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">时刻表</a></p>
+      <div class="rooms">
+        <div class="room">
+          <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地图</a></div>
+          <p class="note" style="margin:-2px 0 8px;">🚶 距汐入站步行15分钟（1.0公里）・距坂本一丁目巴士站步行5分钟（300米）</p>
+          <div class="chips">
+            <span class="chip lead">斋藤</span>
+            <span class="chip">早川教授</span><span class="chip">难波江副教授</span><span class="chip">高桥助理教授</span>
+            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊池</span>
+            <span class="chip">佐佐木</span><span class="chip">须崎</span><span class="chip">山崎</span><span class="chip">东</span>
+            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
+          </div>
+        </div>
+        <div class="room">
+          <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 地图</a></div>
+          <p class="note" style="margin:-2px 0 8px;">🚶 距汐入站步行16分钟（1.0公里）・距坂本一丁目巴士站步行5分钟（290米）</p>
+          <div class="chips">
+            <span class="chip lead">喜多</span>
+            <span class="chip">柯</span><span class="chip">金</span><span class="chip">石井</span><span class="chip">南</span>
+            <span class="chip">黑川</span><span class="chip">卓</span><span class="chip">滨元</span><span class="chip">内木</span><span class="chip">吉田</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
       <div class="callout info">
         <span class="ico">🛁</span>
         <div>每栋住宿各有一间浴室，附近也有钱汤（公共澡堂），可依个人喜好选择。若前往钱汤，请把花费告诉我们，我们会在结算旅行费用时一併计入。</div>
@@ -800,31 +834,6 @@ I18N["zh-Hans"] = `
         <div class="sento"><div><div class="name">常盘汤 <a class="sento-map" href="https://maps.app.goo.gl/gR1TLsHfpsh4y1zu7" target="_blank">📍 地图</a></div><div class="meta">营业至22:00・距α栋步行27分钟・距β栋步行22分钟</div></div><div class="price">¥570</div></div>
       </div>
       <p class="note">营业时间与价格可能有变动，请自行确认最新资讯。</p>
-
-      <div class="divider"></div>
-      <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 房栋分配</p>
-      <p class="note" style="margin-top:-2px; margin-bottom:2px;">🚶 α⇄β：步行约6分钟</p>
-      <p class="note" style="margin-bottom:10px;">🚌 汐入站⇔坂本一丁目（就在两栋住宿附近）：京急巴士须20路线 — 凭三浦半岛周游券免费搭乘 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">时刻表</a></p>
-      <div class="rooms">
-        <div class="room">
-          <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地图</a></div>
-          <div class="chips">
-            <span class="chip lead">斋藤</span>
-            <span class="chip">早川教授</span><span class="chip">难波江副教授</span><span class="chip">高桥助理教授</span>
-            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊池</span>
-            <span class="chip">佐佐木</span><span class="chip">须崎</span><span class="chip">山崎</span><span class="chip">东</span>
-            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
-          </div>
-        </div>
-        <div class="room">
-          <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 地图</a></div>
-          <div class="chips">
-            <span class="chip lead">喜多</span>
-            <span class="chip">柯</span><span class="chip">金</span><span class="chip">石井</span><span class="chip">南</span>
-            <span class="chip">黑川</span><span class="chip">卓</span><span class="chip">滨元</span><span class="chip">内木</span><span class="chip">吉田</span>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -1098,6 +1107,34 @@ I18N["zh-Hant"] = `
     <div class="event-body">
       <p>我們會先到住宿處放行李。住宿共分<b>α</b>、<b>β</b>兩棟，α棟由齋藤帶隊，β棟由喜多帶隊。請在各自所屬的房棟內洗澡、就寢及用早餐。</p>
       <p>放完行李後就是自由活動時間。這段時間不需要採購，但請大家陸續洗好澡。</p>
+
+      <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 房棟分配</p>
+      <p class="note" style="margin-top:-2px; margin-bottom:2px;">基本上以步行移動為主。🚶 α⇄β：步行約6分鐘。</p>
+      <p class="note" style="margin-bottom:10px;">🚌 補充：也可搭乘京急巴士須20路線往返汐入站⇔坂本一丁目（就在兩棟住宿附近）— 憑三浦半島周遊券免費搭乘 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">時刻表</a></p>
+      <div class="rooms">
+        <div class="room">
+          <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地圖</a></div>
+          <p class="note" style="margin:-2px 0 8px;">🚶 距汐入站步行15分鐘（1.0公里）・距坂本一丁目巴士站步行5分鐘（300公尺）</p>
+          <div class="chips">
+            <span class="chip lead">齋藤</span>
+            <span class="chip">早川教授</span><span class="chip">難波江副教授</span><span class="chip">高橋助理教授</span>
+            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊池</span>
+            <span class="chip">佐佐木</span><span class="chip">須崎</span><span class="chip">山崎</span><span class="chip">東</span>
+            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
+          </div>
+        </div>
+        <div class="room">
+          <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 地圖</a></div>
+          <p class="note" style="margin:-2px 0 8px;">🚶 距汐入站步行16分鐘（1.0公里）・距坂本一丁目巴士站步行5分鐘（290公尺）</p>
+          <div class="chips">
+            <span class="chip lead">喜多</span>
+            <span class="chip">柯</span><span class="chip">金</span><span class="chip">石井</span><span class="chip">南</span>
+            <span class="chip">黑川</span><span class="chip">卓</span><span class="chip">濱元</span><span class="chip">內木</span><span class="chip">吉田</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
       <div class="callout info">
         <span class="ico">🛁</span>
         <div>每棟住宿各有一間浴室，附近也有錢湯（公共澡堂），可依個人喜好選擇。若前往錢湯，請把花費告訴我們，我們會在結算旅行費用時一併計入。</div>
@@ -1111,31 +1148,6 @@ I18N["zh-Hant"] = `
         <div class="sento"><div><div class="name">常盤湯 <a class="sento-map" href="https://maps.app.goo.gl/gR1TLsHfpsh4y1zu7" target="_blank">📍 地圖</a></div><div class="meta">營業至22:00・距α棟步行27分鐘・距β棟步行22分鐘</div></div><div class="price">¥570</div></div>
       </div>
       <p class="note">營業時間與價格可能有變動，請自行確認最新資訊。</p>
-
-      <div class="divider"></div>
-      <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 房棟分配</p>
-      <p class="note" style="margin-top:-2px; margin-bottom:2px;">🚶 α⇄β：步行約6分鐘</p>
-      <p class="note" style="margin-bottom:10px;">🚌 汐入站⇔坂本一丁目（就在兩棟住宿附近）：京急巴士須20路線 — 憑三浦半島周遊券免費搭乘 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">時刻表</a></p>
-      <div class="rooms">
-        <div class="room">
-          <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地圖</a></div>
-          <div class="chips">
-            <span class="chip lead">齋藤</span>
-            <span class="chip">早川教授</span><span class="chip">難波江副教授</span><span class="chip">高橋助理教授</span>
-            <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊池</span>
-            <span class="chip">佐佐木</span><span class="chip">須崎</span><span class="chip">山崎</span><span class="chip">東</span>
-            <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
-          </div>
-        </div>
-        <div class="room">
-          <div class="room-head"><span class="label">β</span><a class="room-map" href="https://share.google/DLrvtx7JUWZkJWiqs" target="_blank">📍 地圖</a></div>
-          <div class="chips">
-            <span class="chip lead">喜多</span>
-            <span class="chip">柯</span><span class="chip">金</span><span class="chip">石井</span><span class="chip">南</span>
-            <span class="chip">黑川</span><span class="chip">卓</span><span class="chip">濱元</span><span class="chip">內木</span><span class="chip">吉田</span>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
