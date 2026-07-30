@@ -182,7 +182,7 @@ I18N.en = `
       <div class="divider"></div>
       <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 Room assignments</p>
       <p class="note" style="margin-top:-2px; margin-bottom:2px;">🚶 α ⇄ β: about a 6-minute walk</p>
-      <p class="note" style="margin-bottom:10px;">🚌 Shioiri Sta. ⇄ Sakamoto-icchome bus stop (right by both buildings): Keikyu Bus route Su20 — free with the Marugoto Ticket — <a href="https://timetablenavi.keikyu-bus.co.jp/dia/timetable/web/51304/" target="_blank">timetable</a></p>
+      <p class="note" style="margin-bottom:10px;">🚌 Shioiri Sta. ⇄ Sakamoto-icchome bus stop (right by both buildings): Keikyu Bus route Su20 — free with the Marugoto Ticket — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">timetable</a></p>
       <div class="rooms">
         <div class="room">
           <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 Map</a></div>
@@ -493,7 +493,7 @@ I18N.ja = `
       <div class="divider"></div>
       <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 棟分け</p>
       <p class="note" style="margin-top:-2px; margin-bottom:2px;">🚶 α⇄β：徒歩約6分</p>
-      <p class="note" style="margin-bottom:10px;">🚌 汐入駅⇔坂本一丁目（両宿のすぐそば）：京急バス須20系統 — 三浦半島まるごと切符で乗車無料 — <a href="https://timetablenavi.keikyu-bus.co.jp/dia/timetable/web/51304/" target="_blank">時刻表</a></p>
+      <p class="note" style="margin-bottom:10px;">🚌 汐入駅⇔坂本一丁目（両宿のすぐそば）：京急バス須20系統 — 三浦半島まるごと切符で乗車無料 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">時刻表</a></p>
       <div class="rooms">
         <div class="room">
           <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地図</a></div>
@@ -804,7 +804,7 @@ I18N["zh-Hans"] = `
       <div class="divider"></div>
       <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 房栋分配</p>
       <p class="note" style="margin-top:-2px; margin-bottom:2px;">🚶 α⇄β：步行约6分钟</p>
-      <p class="note" style="margin-bottom:10px;">🚌 汐入站⇔坂本一丁目（就在两栋住宿附近）：京急巴士须20路线 — 凭三浦半岛周游券免费搭乘 — <a href="https://timetablenavi.keikyu-bus.co.jp/dia/timetable/web/51304/" target="_blank">时刻表</a></p>
+      <p class="note" style="margin-bottom:10px;">🚌 汐入站⇔坂本一丁目（就在两栋住宿附近）：京急巴士须20路线 — 凭三浦半岛周游券免费搭乘 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">时刻表</a></p>
       <div class="rooms">
         <div class="room">
           <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地图</a></div>
@@ -1115,7 +1115,7 @@ I18N["zh-Hant"] = `
       <div class="divider"></div>
       <p style="font-weight:700; color:var(--ink); margin-bottom:4px;">🏠 房棟分配</p>
       <p class="note" style="margin-top:-2px; margin-bottom:2px;">🚶 α⇄β：步行約6分鐘</p>
-      <p class="note" style="margin-bottom:10px;">🚌 汐入站⇔坂本一丁目（就在兩棟住宿附近）：京急巴士須20路線 — 憑三浦半島周遊券免費搭乘 — <a href="https://timetablenavi.keikyu-bus.co.jp/dia/timetable/web/51304/" target="_blank">時刻表</a></p>
+      <p class="note" style="margin-bottom:10px;">🚌 汐入站⇔坂本一丁目（就在兩棟住宿附近）：京急巴士須20路線 — 憑三浦半島周遊券免費搭乘 — <a href="https://ekitan.com/timetable/route-bus/company/5079/1025044" target="_blank">時刻表</a></p>
       <div class="rooms">
         <div class="room">
           <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地圖</a></div>
