@@ -187,7 +187,7 @@ I18N.en = `
           <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 Map</a></div>
           <div class="chips">
             <span class="chip lead">Saito</span>
-            <span class="chip">Prof. Hayakawa</span><span class="chip">Prof. Nanbae</span><span class="chip">Prof. Takahashi</span>
+            <span class="chip">Prof. Hayakawa</span><span class="chip">Assoc. Prof. Nanbae</span><span class="chip">Asst. Prof. Takahashi</span>
             <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">Sone</span><span class="chip">Kikuchi</span>
             <span class="chip">Sasaki</span><span class="chip">Suzaki</span><span class="chip">Yamazaki</span><span class="chip">Azuma</span>
             <span class="chip">Hiramatsu</span><span class="chip">Matsuo</span><span class="chip">Sugizaki</span><span class="chip">Lee</span>
@@ -229,7 +229,7 @@ I18N.en = `
 
   <div class="timeline-item">
     <span class="time-badge">11:00</span>
-    <div class="event-title">🍚 Lunch @ Umiwaya</div>
+    <div class="event-title">🍚 Lunch @ <a href="https://tabelog.com/kanagawa/A1406/A140603/14050824/" target="_blank">Umiwaya</a></div>
     <div class="event-body"><p>5-minute walk from Miura-kaigan Station. We'll have kaisen-don (seafood rice bowl).</p></div>
   </div>
 
@@ -539,7 +539,7 @@ I18N.ja = `
 
   <div class="timeline-item">
     <span class="time-badge">11:00</span>
-    <div class="event-title">🍚 昼食 @ 海わ屋</div>
+    <div class="event-title">🍚 昼食 @ <a href="https://tabelog.com/kanagawa/A1406/A140603/14050824/" target="_blank">海わ屋</a></div>
     <div class="event-body"><p>三浦海岸駅徒歩5分。海鮮丼食べます。</p></div>
   </div>
 
@@ -807,7 +807,7 @@ I18N["zh-Hans"] = `
           <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地图</a></div>
           <div class="chips">
             <span class="chip lead">斋藤</span>
-            <span class="chip">早川教授</span><span class="chip">难波江教授</span><span class="chip">高桥教授</span>
+            <span class="chip">早川教授</span><span class="chip">难波江副教授</span><span class="chip">高桥助理教授</span>
             <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊池</span>
             <span class="chip">佐佐木</span><span class="chip">须崎</span><span class="chip">山崎</span><span class="chip">东</span>
             <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
@@ -849,7 +849,7 @@ I18N["zh-Hans"] = `
 
   <div class="timeline-item">
     <span class="time-badge">11:00</span>
-    <div class="event-title">🍚 午餐 @ 海わ屋</div>
+    <div class="event-title">🍚 午餐 @ <a href="https://tabelog.com/kanagawa/A1406/A140603/14050824/" target="_blank">海わ屋</a></div>
     <div class="event-body"><p>距三浦海岸站步行5分钟，我们会享用海鲜丼。</p></div>
   </div>
 
@@ -1117,7 +1117,7 @@ I18N["zh-Hant"] = `
           <div class="room-head"><span class="label">α</span><a class="room-map" href="https://share.google/ORXuxUADRfo4urra7" target="_blank">📍 地圖</a></div>
           <div class="chips">
             <span class="chip lead">齋藤</span>
-            <span class="chip">早川教授</span><span class="chip">難波江教授</span><span class="chip">高橋教授</span>
+            <span class="chip">早川教授</span><span class="chip">難波江副教授</span><span class="chip">高橋助理教授</span>
             <span class="chip">Tao</span><span class="chip">Kong</span><span class="chip">曾根</span><span class="chip">菊池</span>
             <span class="chip">佐佐木</span><span class="chip">須崎</span><span class="chip">山崎</span><span class="chip">東</span>
             <span class="chip">平松</span><span class="chip">松尾</span><span class="chip">杉崎</span><span class="chip">Lee</span>
@@ -1159,7 +1159,7 @@ I18N["zh-Hant"] = `
 
   <div class="timeline-item">
     <span class="time-badge">11:00</span>
-    <div class="event-title">🍚 午餐 @ 海わ屋</div>
+    <div class="event-title">🍚 午餐 @ <a href="https://tabelog.com/kanagawa/A1406/A140603/14050824/" target="_blank">海わ屋</a></div>
     <div class="event-body"><p>距三浦海岸站步行5分鐘，我們會享用海鮮丼。</p></div>
   </div>
 
