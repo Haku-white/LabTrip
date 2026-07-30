@@ -74,7 +74,7 @@ I18N.en = `
   <h2 class="section-title"><span class="dot"></span>🚶 Itinerary</h2>
   <h3 class="day-heading">Sat, Aug 22</h3>
 
-  <div class="timeline-item">
+  <div class="timeline-item advance">
     <span class="audience">Advance team</span>
     <span class="time-badge">09:00</span>
     <div class="event-title">Meet at Yokohama Station, "Keikyu central ticket gate"</div>
@@ -97,15 +97,15 @@ I18N.en = `
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item advance">
     <span class="audience">Advance team</span>
     <span class="time-badge">09:50 – 10:20ish</span>
     <div class="event-title">Arrive at Keikyu "Yokosuka-chuo Station"</div>
     <div class="event-body"><p>We'll do the shopping for BBQ ingredients.</p></div>
   </div>
 
-  <div class="timeline-item">
-    <span class="audience">Everyone else</span>
+  <div class="timeline-item rest">
+    <span class="audience rest">Everyone else</span>
     <span class="time-badge">09:20</span>
     <div class="event-title">Meet at Yokohama Station, "Keikyu central ticket gate"</div>
     <div class="event-body">
@@ -397,7 +397,7 @@ I18N.ja = `
   <h2 class="section-title"><span class="dot"></span>🚶 プラン</h2>
   <h3 class="day-heading">2026/08/22（土）</h3>
 
-  <div class="timeline-item">
+  <div class="timeline-item advance">
     <span class="audience">先発隊</span>
     <span class="time-badge">09:00</span>
     <div class="event-title">横浜駅"京急中央改札前"集合</div>
@@ -420,15 +420,15 @@ I18N.ja = `
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item advance">
     <span class="audience">先発隊</span>
     <span class="time-badge">09:50～10:20頃</span>
     <div class="event-title">京急"横須賀中央駅"着</div>
     <div class="event-body"><p>BBQ食材の買い出しを行います。</p></div>
   </div>
 
-  <div class="timeline-item">
-    <span class="audience">先発隊以外</span>
+  <div class="timeline-item rest">
+    <span class="audience rest">先発隊以外</span>
     <span class="time-badge">09:20</span>
     <div class="event-title">横浜駅"京急中央改札前"集合</div>
     <div class="event-body">
@@ -720,7 +720,7 @@ I18N["zh-Hans"] = `
   <h2 class="section-title"><span class="dot"></span>🚶 行程</h2>
   <h3 class="day-heading">8月22日（周六）</h3>
 
-  <div class="timeline-item">
+  <div class="timeline-item advance">
     <span class="audience">先遣队</span>
     <span class="time-badge">09:00</span>
     <div class="event-title">集合地点：横滨站「京急中央检票口前」</div>
@@ -743,15 +743,15 @@ I18N["zh-Hans"] = `
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item advance">
     <span class="audience">先遣队</span>
     <span class="time-badge">09:50–10:20左右</span>
     <div class="event-title">抵达京急「横须贺中央站」</div>
     <div class="event-body"><p>在这里採购烧烤食材。</p></div>
   </div>
 
-  <div class="timeline-item">
-    <span class="audience">先遣队以外</span>
+  <div class="timeline-item rest">
+    <span class="audience rest">先遣队以外</span>
     <span class="time-badge">09:20</span>
     <div class="event-title">集合地点：横滨站「京急中央检票口前」</div>
     <div class="event-body">
@@ -1043,7 +1043,7 @@ I18N["zh-Hant"] = `
   <h2 class="section-title"><span class="dot"></span>🚶 行程</h2>
   <h3 class="day-heading">8月22日（週六）</h3>
 
-  <div class="timeline-item">
+  <div class="timeline-item advance">
     <span class="audience">先遣隊</span>
     <span class="time-badge">09:00</span>
     <div class="event-title">集合地點：橫濱站「京急中央剪票口前」</div>
@@ -1066,15 +1066,15 @@ I18N["zh-Hant"] = `
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item advance">
     <span class="audience">先遣隊</span>
     <span class="time-badge">09:50–10:20左右</span>
     <div class="event-title">抵達京急「橫須賀中央站」</div>
     <div class="event-body"><p>在這裡採購烤肉食材。</p></div>
   </div>
 
-  <div class="timeline-item">
-    <span class="audience">先遣隊以外</span>
+  <div class="timeline-item rest">
+    <span class="audience rest">先遣隊以外</span>
     <span class="time-badge">09:20</span>
     <div class="event-title">集合地點：橫濱站「京急中央剪票口前」</div>
     <div class="event-body">

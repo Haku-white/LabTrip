@@ -12,6 +12,8 @@
   --info-soft:#eaf7f9;
   --amber:#e0762f;
   --amber-soft:#fdecdd;
+  --violet:#7c5cd0;
+  --violet-soft:#efe9fb;
   --bg:#f5f7f9;
   --card:#ffffff;
   --line:#e8ecef;
@@ -236,7 +238,8 @@ h3.day-heading{
   border-radius:50%;
   box-shadow:0 0 0 1px var(--brand);
 }
-.timeline-item.merge::before{background:#9aa3ab; box-shadow:0 0 0 1px #9aa3ab;}
+.timeline-item.advance::before{background:var(--amber); box-shadow:0 0 0 1px var(--amber);}
+.timeline-item.rest::before{background:var(--violet); box-shadow:0 0 0 1px var(--violet);}
 .time-badge{
   display:inline-block;
   background:var(--ink);
@@ -259,6 +262,10 @@ h3.day-heading{
   border-radius:100px;
   margin:0 6px 6px 0;
   box-shadow:0 2px 6px rgba(224,118,47,0.35);
+}
+.audience.rest{
+  background:var(--violet);
+  box-shadow:0 2px 6px rgba(124,92,208,0.35);
 }
 .event-title{
   font-weight:700;
