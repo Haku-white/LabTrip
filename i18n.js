@@ -75,10 +75,11 @@ I18N.en = `
   <h3 class="day-heading">Sat, Aug 22</h3>
 
   <div class="timeline-item">
-    <span class="audience">B4 &amp; M1</span>
+    <span class="audience">Advance team</span>
     <span class="time-badge">09:00</span>
     <div class="event-title">Meet at Yokohama Station, "Keikyu central ticket gate"</div>
     <div class="event-body">
+      <p><b>Advance team:</b> Kita, Kurokawa, Ishii, Yoshida, Naiki, Hamamoto, Sugizaki</p>
       <div class="callout info">
         <span class="ico">🎫</span>
         <div>We will have purchased the <a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">Miura Peninsula Marugoto Ticket</a>. It's a set of 3 tickets, but only the <b>ride ticket</b> will be handed out — please keep it safe.</div>
@@ -97,14 +98,14 @@ I18N.en = `
   </div>
 
   <div class="timeline-item">
-    <span class="audience">B4 &amp; M1</span>
+    <span class="audience">Advance team</span>
     <span class="time-badge">09:50 – 10:20ish</span>
     <div class="event-title">Arrive at Keikyu "Yokosuka-chuo Station"</div>
     <div class="event-body"><p>We'll do the shopping for BBQ ingredients.</p></div>
   </div>
 
   <div class="timeline-item">
-    <span class="audience">Professors &amp; M2+</span>
+    <span class="audience">Everyone else</span>
     <span class="time-badge">09:20</span>
     <div class="event-title">Meet at Yokohama Station, "Keikyu central ticket gate"</div>
     <div class="event-body">
@@ -389,10 +390,11 @@ I18N.ja = `
   <h3 class="day-heading">2026/08/22（土）</h3>
 
   <div class="timeline-item">
-    <span class="audience">B4・M1</span>
+    <span class="audience">先発隊</span>
     <span class="time-badge">09:00</span>
     <div class="event-title">横浜駅"京急中央改札前"集合</div>
     <div class="event-body">
+      <p><b>先発隊：</b>喜多、黒川、石井、吉田、内木、濱元、杉崎</p>
       <div class="callout info">
         <span class="ico">🎫</span>
         <div><a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">"三浦半島まるごと切符"</a>を購入しています。以下の3枚のチケットがセットになっていますが、<b>"乗車券"</b>のみお渡しするので大切に保管してください。</div>
@@ -411,14 +413,14 @@ I18N.ja = `
   </div>
 
   <div class="timeline-item">
-    <span class="audience">B4・M1</span>
+    <span class="audience">先発隊</span>
     <span class="time-badge">09:50～10:20頃</span>
     <div class="event-title">京急"横須賀中央駅"着</div>
     <div class="event-body"><p>BBQ食材の買い出しを行います。</p></div>
   </div>
 
   <div class="timeline-item">
-    <span class="audience">先生方・M2以上</span>
+    <span class="audience">先発隊以外</span>
     <span class="time-badge">09:20</span>
     <div class="event-title">横浜駅"京急中央改札前"集合</div>
     <div class="event-body">
@@ -703,10 +705,11 @@ I18N["zh-Hans"] = `
   <h3 class="day-heading">8月22日（周六）</h3>
 
   <div class="timeline-item">
-    <span class="audience">B4・M1</span>
+    <span class="audience">先遣队</span>
     <span class="time-badge">09:00</span>
     <div class="event-title">集合地点：横滨站「京急中央检票口前」</div>
     <div class="event-body">
+      <p><b>先遣队：</b>喜多、黑川、石井、吉田、内木、滨元、杉崎</p>
       <div class="callout info">
         <span class="ico">🎫</span>
         <div>我们已购买了<a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">「三浦半岛周游券」</a>。这是一套3张的车票组合，但当天只会发放<b>乘车券</b>，请妥善保管。</div>
@@ -725,14 +728,14 @@ I18N["zh-Hans"] = `
   </div>
 
   <div class="timeline-item">
-    <span class="audience">B4・M1</span>
+    <span class="audience">先遣队</span>
     <span class="time-badge">09:50–10:20左右</span>
     <div class="event-title">抵达京急「横须贺中央站」</div>
     <div class="event-body"><p>在这里採购烧烤食材。</p></div>
   </div>
 
   <div class="timeline-item">
-    <span class="audience">教授・M2以上</span>
+    <span class="audience">先遣队以外</span>
     <span class="time-badge">09:20</span>
     <div class="event-title">集合地点：横滨站「京急中央检票口前」</div>
     <div class="event-body">
@@ -1017,10 +1020,11 @@ I18N["zh-Hant"] = `
   <h3 class="day-heading">8月22日（週六）</h3>
 
   <div class="timeline-item">
-    <span class="audience">B4・M1</span>
+    <span class="audience">先遣隊</span>
     <span class="time-badge">09:00</span>
     <div class="event-title">集合地點：橫濱站「京急中央剪票口前」</div>
     <div class="event-body">
+      <p><b>先遣隊：</b>喜多、黑川、石井、吉田、內木、濱元、杉崎</p>
       <div class="callout info">
         <span class="ico">🎫</span>
         <div>我們已購買了<a href="https://www.keikyu.co.jp/visit/otoku/marugoto/" target="_blank">「三浦半島周遊券」</a>。這是一套3張的車票組合，但當天只會發放<b>乘車券</b>，請妥善保管。</div>
@@ -1039,14 +1043,14 @@ I18N["zh-Hant"] = `
   </div>
 
   <div class="timeline-item">
-    <span class="audience">B4・M1</span>
+    <span class="audience">先遣隊</span>
     <span class="time-badge">09:50–10:20左右</span>
     <div class="event-title">抵達京急「橫須賀中央站」</div>
     <div class="event-body"><p>在這裡採購烤肉食材。</p></div>
   </div>
 
   <div class="timeline-item">
-    <span class="audience">教授・M2以上</span>
+    <span class="audience">先遣隊以外</span>
     <span class="time-badge">09:20</span>
     <div class="event-title">集合地點：橫濱站「京急中央剪票口前」</div>
     <div class="event-body">
