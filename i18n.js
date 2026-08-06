@@ -76,7 +76,7 @@ I18N.en = `
 
   <div class="timeline-item advance">
     <span class="audience">Advance team</span>
-    <span class="time-badge">09:00</span>
+    <span class="time-badge">09:20</span>
     <div class="event-title">Meet at Yokohama Station, "Keikyu central ticket gate"</div>
     <div class="event-body">
       <p><b>Advance team:</b> Kita, Kurokawa, Ishii, Yoshida, Naiki, Hamamoto, Sugizaki</p>
@@ -99,14 +99,14 @@ I18N.en = `
 
   <div class="timeline-item advance">
     <span class="audience">Advance team</span>
-    <span class="time-badge">09:50 – 10:20ish</span>
+    <span class="time-badge">10:10 – 10:40ish</span>
     <div class="event-title">Arrive at Keikyu "Yokosuka-chuo Station"</div>
     <div class="event-body"><p>We'll do the shopping for BBQ ingredients.</p></div>
   </div>
 
   <div class="timeline-item rest">
     <span class="audience rest">Everyone else</span>
-    <span class="time-badge">09:20</span>
+    <span class="time-badge">09:40</span>
     <div class="event-title">Meet at Yokohama Station, "Keikyu central ticket gate"</div>
     <div class="event-body">
       <div class="callout info">
@@ -126,13 +126,8 @@ I18N.en = `
   </div>
 
   <div class="timeline-item merge">
-    <span class="time-badge">~10:20</span>
+    <span class="time-badge">10:40</span>
     <div class="event-title">Group merges at Yokosuka-chuo Station</div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="time-badge">~10:45</span>
-    <div class="event-title">Group photo in front of the battleship Mikasa</div>
   </div>
 
   <div class="timeline-item">
@@ -161,6 +156,11 @@ I18N.en = `
       <p><a href="https://sarushima.jp/information/" target="_blank">Ferry timetable →</a></p>
       <div class="callout warn"><span class="ico">🚨</span><div><b>Do not miss the last ferry</b> — missing it would be a genuine disaster.</div></div>
     </div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="time-badge">~17:20</span>
+    <div class="event-title">📸 Group photo in front of the battleship Mikasa</div>
   </div>
 
   <div class="timeline-item">
@@ -399,7 +399,7 @@ I18N.ja = `
 
   <div class="timeline-item advance">
     <span class="audience">先発隊</span>
-    <span class="time-badge">09:00</span>
+    <span class="time-badge">09:20</span>
     <div class="event-title">横浜駅"京急中央改札前"集合</div>
     <div class="event-body">
       <p><b>先発隊：</b>喜多、黒川、石井、吉田、内木、濱元、杉﨑</p>
@@ -422,14 +422,14 @@ I18N.ja = `
 
   <div class="timeline-item advance">
     <span class="audience">先発隊</span>
-    <span class="time-badge">09:50～10:20頃</span>
+    <span class="time-badge">10:10～10:40頃</span>
     <div class="event-title">京急"横須賀中央駅"着</div>
     <div class="event-body"><p>BBQ食材の買い出しを行います。</p></div>
   </div>
 
   <div class="timeline-item rest">
     <span class="audience rest">先発隊以外</span>
-    <span class="time-badge">09:20</span>
+    <span class="time-badge">09:40</span>
     <div class="event-title">横浜駅"京急中央改札前"集合</div>
     <div class="event-body">
       <div class="callout info">
@@ -449,13 +449,8 @@ I18N.ja = `
   </div>
 
   <div class="timeline-item merge">
-    <span class="time-badge">10:20頃</span>
+    <span class="time-badge">10:40</span>
     <div class="event-title">横須賀中央駅にて合流</div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="time-badge">10:45頃</span>
-    <div class="event-title">戦艦三笠前で写真撮影</div>
   </div>
 
   <div class="timeline-item">
@@ -484,6 +479,11 @@ I18N.ja = `
       <p><a href="https://sarushima.jp/information/" target="_blank">フェリー時刻表を見る →</a></p>
       <div class="callout warn"><span class="ico">🚨</span><div>フェリーの最終便に乗り遅れるとガチの大事になるので乗り遅れないようにしましょう。</div></div>
     </div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="time-badge">17:20頃</span>
+    <div class="event-title">📸 戦艦三笠前で写真撮影</div>
   </div>
 
   <div class="timeline-item">
@@ -722,7 +722,7 @@ I18N["zh-Hans"] = `
 
   <div class="timeline-item advance">
     <span class="audience">先遣队</span>
-    <span class="time-badge">09:00</span>
+    <span class="time-badge">09:20</span>
     <div class="event-title">集合地点：横滨站「京急中央检票口前」</div>
     <div class="event-body">
       <p><b>先遣队：</b>喜多、黑川、石井、吉田、内木、滨元、杉﨑</p>
@@ -745,14 +745,14 @@ I18N["zh-Hans"] = `
 
   <div class="timeline-item advance">
     <span class="audience">先遣队</span>
-    <span class="time-badge">09:50–10:20左右</span>
+    <span class="time-badge">10:10–10:40左右</span>
     <div class="event-title">抵达京急「横须贺中央站」</div>
     <div class="event-body"><p>在这里採购烧烤食材。</p></div>
   </div>
 
   <div class="timeline-item rest">
     <span class="audience rest">先遣队以外</span>
-    <span class="time-badge">09:20</span>
+    <span class="time-badge">09:40</span>
     <div class="event-title">集合地点：横滨站「京急中央检票口前」</div>
     <div class="event-body">
       <div class="callout info">
@@ -772,13 +772,8 @@ I18N["zh-Hans"] = `
   </div>
 
   <div class="timeline-item merge">
-    <span class="time-badge">10:20左右</span>
+    <span class="time-badge">10:40</span>
     <div class="event-title">于横须贺中央站会合</div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="time-badge">10:45左右</span>
-    <div class="event-title">在战舰三笠前拍摄团体照</div>
   </div>
 
   <div class="timeline-item">
@@ -807,6 +802,11 @@ I18N["zh-Hans"] = `
       <p><a href="https://sarushima.jp/information/" target="_blank">查看渡轮时刻表 →</a></p>
       <div class="callout warn"><span class="ico">🚨</span><div><b>千万别错过最后一班渡轮</b>——错过的话真的会很麻烦，请务必留意时间。</div></div>
     </div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="time-badge">17:20左右</span>
+    <div class="event-title">📸 在战舰三笠前拍摄团体照</div>
   </div>
 
   <div class="timeline-item">
@@ -1045,7 +1045,7 @@ I18N["zh-Hant"] = `
 
   <div class="timeline-item advance">
     <span class="audience">先遣隊</span>
-    <span class="time-badge">09:00</span>
+    <span class="time-badge">09:20</span>
     <div class="event-title">集合地點：橫濱站「京急中央剪票口前」</div>
     <div class="event-body">
       <p><b>先遣隊：</b>喜多、黑川、石井、吉田、內木、濱元、杉﨑</p>
@@ -1068,14 +1068,14 @@ I18N["zh-Hant"] = `
 
   <div class="timeline-item advance">
     <span class="audience">先遣隊</span>
-    <span class="time-badge">09:50–10:20左右</span>
+    <span class="time-badge">10:10–10:40左右</span>
     <div class="event-title">抵達京急「橫須賀中央站」</div>
     <div class="event-body"><p>在這裡採購烤肉食材。</p></div>
   </div>
 
   <div class="timeline-item rest">
     <span class="audience rest">先遣隊以外</span>
-    <span class="time-badge">09:20</span>
+    <span class="time-badge">09:40</span>
     <div class="event-title">集合地點：橫濱站「京急中央剪票口前」</div>
     <div class="event-body">
       <div class="callout info">
@@ -1095,13 +1095,8 @@ I18N["zh-Hant"] = `
   </div>
 
   <div class="timeline-item merge">
-    <span class="time-badge">10:20左右</span>
+    <span class="time-badge">10:40</span>
     <div class="event-title">於橫須賀中央站會合</div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="time-badge">10:45左右</span>
-    <div class="event-title">在戰艦三笠前拍攝團體照</div>
   </div>
 
   <div class="timeline-item">
@@ -1130,6 +1125,11 @@ I18N["zh-Hant"] = `
       <p><a href="https://sarushima.jp/information/" target="_blank">查看渡輪時刻表 →</a></p>
       <div class="callout warn"><span class="ico">🚨</span><div><b>千萬別錯過最後一班渡輪</b>——錯過的話真的會很麻煩，請務必留意時間。</div></div>
     </div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="time-badge">17:20左右</span>
+    <div class="event-title">📸 在戰艦三笠前拍攝團體照</div>
   </div>
 
   <div class="timeline-item">
