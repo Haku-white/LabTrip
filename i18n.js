@@ -150,7 +150,7 @@ I18N.en = `
   </div>
 
   <div class="timeline-item">
-    <span class="time-badge">~16:30</span>
+    <span class="time-badge">~15:30</span>
     <div class="event-title">📸 Group photo on the Sarushima beach</div>
   </div>
 
@@ -473,7 +473,7 @@ I18N.ja = `
   </div>
 
   <div class="timeline-item">
-    <span class="time-badge">16:30頃</span>
+    <span class="time-badge">15:30頃</span>
     <div class="event-title">📸 猿島の海岸で写真撮影</div>
   </div>
 
@@ -796,7 +796,7 @@ I18N["zh-Hans"] = `
   </div>
 
   <div class="timeline-item">
-    <span class="time-badge">16:30左右</span>
+    <span class="time-badge">15:30左右</span>
     <div class="event-title">📸 在猿岛海滩拍摄团体照</div>
   </div>
 
@@ -1119,7 +1119,7 @@ I18N["zh-Hant"] = `
   </div>
 
   <div class="timeline-item">
-    <span class="time-badge">16:30左右</span>
+    <span class="time-badge">15:30左右</span>
     <div class="event-title">📸 在猿島海灘拍攝團體照</div>
   </div>
 
