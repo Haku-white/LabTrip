@@ -150,17 +150,17 @@ I18N.en = `
   </div>
 
   <div class="timeline-item">
+    <span class="time-badge">~16:30</span>
+    <div class="event-title">📸 Group photo on the Sarushima beach</div>
+  </div>
+
+  <div class="timeline-item">
     <span class="time-badge">17:00 – 17:15</span>
     <div class="event-title">⛴️ Ferry back to the Yokosuka mainland</div>
     <div class="event-body">
       <p><a href="https://sarushima.jp/information/" target="_blank">Ferry timetable →</a></p>
       <div class="callout warn"><span class="ico">🚨</span><div><b>Do not miss the last ferry</b> — missing it would be a genuine disaster.</div></div>
     </div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="time-badge">~17:20</span>
-    <div class="event-title">📸 Group photo in front of the battleship Mikasa</div>
   </div>
 
   <div class="timeline-item">
@@ -473,17 +473,17 @@ I18N.ja = `
   </div>
 
   <div class="timeline-item">
+    <span class="time-badge">16:30頃</span>
+    <div class="event-title">📸 猿島の海岸で写真撮影</div>
+  </div>
+
+  <div class="timeline-item">
     <span class="time-badge">17:00～17:15</span>
     <div class="event-title">⛴️ 横須賀本土帰港</div>
     <div class="event-body">
       <p><a href="https://sarushima.jp/information/" target="_blank">フェリー時刻表を見る →</a></p>
       <div class="callout warn"><span class="ico">🚨</span><div>フェリーの最終便に乗り遅れるとガチの大事になるので乗り遅れないようにしましょう。</div></div>
     </div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="time-badge">17:20頃</span>
-    <div class="event-title">📸 戦艦三笠前で写真撮影</div>
   </div>
 
   <div class="timeline-item">
@@ -796,17 +796,17 @@ I18N["zh-Hans"] = `
   </div>
 
   <div class="timeline-item">
+    <span class="time-badge">16:30左右</span>
+    <div class="event-title">📸 在猿岛海滩拍摄团体照</div>
+  </div>
+
+  <div class="timeline-item">
     <span class="time-badge">17:00–17:15</span>
     <div class="event-title">⛴️ 搭渡轮返回横须贺本岛</div>
     <div class="event-body">
       <p><a href="https://sarushima.jp/information/" target="_blank">查看渡轮时刻表 →</a></p>
       <div class="callout warn"><span class="ico">🚨</span><div><b>千万别错过最后一班渡轮</b>——错过的话真的会很麻烦，请务必留意时间。</div></div>
     </div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="time-badge">17:20左右</span>
-    <div class="event-title">📸 在战舰三笠前拍摄团体照</div>
   </div>
 
   <div class="timeline-item">
@@ -1119,17 +1119,17 @@ I18N["zh-Hant"] = `
   </div>
 
   <div class="timeline-item">
+    <span class="time-badge">16:30左右</span>
+    <div class="event-title">📸 在猿島海灘拍攝團體照</div>
+  </div>
+
+  <div class="timeline-item">
     <span class="time-badge">17:00–17:15</span>
     <div class="event-title">⛴️ 搭渡輪返回橫須賀本島</div>
     <div class="event-body">
       <p><a href="https://sarushima.jp/information/" target="_blank">查看渡輪時刻表 →</a></p>
       <div class="callout warn"><span class="ico">🚨</span><div><b>千萬別錯過最後一班渡輪</b>——錯過的話真的會很麻煩，請務必留意時間。</div></div>
     </div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="time-badge">17:20左右</span>
-    <div class="event-title">📸 在戰艦三笠前拍攝團體照</div>
   </div>
 
   <div class="timeline-item">
