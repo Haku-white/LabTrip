@@ -298,7 +298,6 @@ I18N.en = `
   <div class="card">
     <b style="color:var(--ink);">Sightseeing spots</b>
     <ul class="spot-list">
-      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>Memorial battleship "Mikasa"</b></a><span class="desc">Preserved early-1900s battleship — go aboard and explore the decks</span><span class="perk">🎟️ Marugoto Ticket: ¥100 off admission (adult ¥600→¥500, high school ¥300→¥200, elementary/JHS free)</span></li>
       <li><a href="https://coaska.jp/" target="_blank"><b>Shioiri Terminal</b></a><span class="desc">Shopping complex inside Coaska Bayside Stores, 5 min walk from Shioiri Sta.</span></li>
       <li><a href="https://dobuita-st.com/" target="_blank"><b>Dobuita Street</b></a><span class="desc">Retro shopping arcade with a US Navy-town atmosphere, 5 min walk north of Shioiri Sta.</span></li>
       <li><a href="https://www.cocoyoko.net/spot/verny-park.html" target="_blank"><b>Verny Park</b></a><span class="desc">Seaside French-style rose garden, 5 min walk from Shioiri Sta.</span></li>
@@ -621,7 +620,6 @@ I18N.ja = `
   <div class="card">
     <b style="color:var(--ink);">観光地</b>
     <ul class="spot-list">
-      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>記念館「三笠」</b></a><span class="desc">明治時代の戦艦をそのまま保存した記念艦。艦内を見学できる</span><span class="perk">🎟️ まるごと切符提示で入艦料割引（大人600円→500円、高校生300円→200円、小中学生無料）</span></li>
       <li><a href="https://coaska.jp/" target="_blank"><b>汐入ターミナル</b></a><span class="desc">コースカベイサイドストアーズ内の商業施設。汐入駅から徒歩5分</span></li>
       <li><a href="https://dobuita-st.com/" target="_blank"><b>ドブ板通り商店街</b></a><span class="desc">アメリカンな雰囲気が漂うレトロな商店街。汐入駅から徒歩5分（北側）</span></li>
       <li><a href="https://www.cocoyoko.net/spot/verny-park.html" target="_blank"><b>ヴェルニー公園</b></a><span class="desc">バラが彩るフランス式庭園のある海沿いの公園。汐入駅から徒歩5分</span></li>
@@ -944,7 +942,6 @@ I18N["zh-Hans"] = `
   <div class="card">
     <b style="color:var(--ink);">观光景点</b>
     <ul class="spot-list">
-      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>纪念舰「三笠」</b></a><span class="desc">明治时代战舰原样保存的纪念舰，可登舰参观</span><span class="perk">🎟️ 出示周游券可享入舰门票优惠（成人¥600→¥500，高中生¥300→¥200，中小学生免费）</span></li>
       <li><a href="https://coaska.jp/" target="_blank"><b>汐入码头商场</b></a><span class="desc">位于Coaska Bayside Stores内的购物设施，距汐入站步行5分钟</span></li>
       <li><a href="https://dobuita-st.com/" target="_blank"><b>多布板通商店街</b></a><span class="desc">充满美式怀旧氛围的商店街，距汐入站步行5分钟（北侧）</span></li>
       <li><a href="https://www.cocoyoko.net/spot/verny-park.html" target="_blank"><b>凡尔尼公园</b></a><span class="desc">拥有法式玫瑰花坛的海滨公园，距汐入站步行5分钟，可眺望海景</span></li>
@@ -1267,7 +1264,6 @@ I18N["zh-Hant"] = `
   <div class="card">
     <b style="color:var(--ink);">觀光景點</b>
     <ul class="spot-list">
-      <li><a href="https://www.kinenkan-mikasa.or.jp/" target="_blank"><b>紀念艦「三笠」</b></a><span class="desc">明治時代戰艦原樣保存的紀念艦，可登艦參觀</span><span class="perk">🎟️ 出示周遊券可享入艦門票優惠（成人¥600→¥500，高中生¥300→¥200，中小學生免費）</span></li>
       <li><a href="https://coaska.jp/" target="_blank"><b>汐入碼頭商場</b></a><span class="desc">位於Coaska Bayside Stores內的購物設施，距汐入站步行5分鐘</span></li>
       <li><a href="https://dobuita-st.com/" target="_blank"><b>多布板通商店街</b></a><span class="desc">充滿美式懷舊氛圍的商店街，距汐入站步行5分鐘（北側）</span></li>
       <li><a href="https://www.cocoyoko.net/spot/verny-park.html" target="_blank"><b>凡爾尼公園</b></a><span class="desc">擁有法式玫瑰花壇的海濱公園，距汐入站步行5分鐘，可眺望海景</span></li>
